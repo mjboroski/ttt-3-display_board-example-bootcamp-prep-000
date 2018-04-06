@@ -4,7 +4,8 @@ def display_board
   pipe="|"
   divider="-----------"
   def display_line
-    puts cell+pipe+cell+pipe+cell
+    d_line=cell+pipe+cell+pipe+cell
+    puts d_line
   end
   def display_divider
     puts divider
